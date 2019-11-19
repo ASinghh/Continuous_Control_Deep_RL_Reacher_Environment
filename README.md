@@ -1,6 +1,6 @@
-# Reacher_Continuous_Control_Deep_RL
+# Continuous_Control_Deep_RL_Reacher_Environment
 ## Introduction
-The project is the second one of the three projects required for graduating [Udacity's Deep Reinforcement Learning Nano Degree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893). The project is to train an agent based on popular variants of Q learning to solve the Unity ML Banana Collector environment. The base code for implementation is borrowed from [Udacity's implementation of Deep Q Networks](https://github.com/udacity/deep-reinforcement-learning/blob/master/dqn/exercise/Deep_Q_Network.ipynb), which I have modified to add Double Q and Dueling Networks. 
+The project is the second one of the three projects required for graduating [Udacity's Deep Reinforcement Learning Nano Degree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893). The project is to train the agent/agents using the Deep Deterministic Policy Gradient(DDPG) to solve the Unity ML Reacher environment. The base code for implementation is borrowed from [Udacity's implementation of Deep Q Networks](https://github.com/udacity/deep-reinforcement-learning/blob/master/dqn/exercise/Deep_Q_Network.ipynb), which I have modified to add Double Q and Dueling Networks. 
 
 
 ## Project details
