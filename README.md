@@ -5,9 +5,9 @@ The project is the second one of the three projects required for graduating [Uda
 
 ## Project details
 ### Environment 
-The environment under consideration is on of the many [Unity ML-Agents Toolkit's](https://github.com/Unity-Technologies/ml-agents) game environments. These environments enable games and simulations to serve as environments for training intelligent agents. The environment is called the Reacher Environment. In this environment, a double-jointed arm can move to target locations.The goal of the agent is to maintain its position at the target location for as many time steps as possible. Two separate versions of the Unity environment are considered for the project,<br/>
-    * Environment with a single agent.<br/>
-    * Environment with 20 identical agents, each with its own copy of the environment.<br/>
+The environment under consideration is on of the many [Unity ML-Agents Toolkit's](https://github.com/Unity-Technologies/ml-agents) game environments. These environments enable games and simulations to serve as environments for training intelligent agents. The environment is called the Reacher Environment. In this environment, a double-jointed arm can move to target locations.The goal of the agent is to maintain its position at the target location for as many time steps as possible. Two separate versions of the Unity environment are considered for the project,<br/><br/>
+    1. Environment with a single agent.<br/>
+    2. Environment with 20 identical agents, each with its own copy of the environment.<br/><br/>
  A graphic rendering of the environment looks like the following GIF. <br/> <br/> <br/> ![Reacher](gifs/reacher.gif)
 
 #### State Space
