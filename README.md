@@ -5,7 +5,10 @@ The project is the second one of the three projects required for graduating [Uda
 
 ## Project details
 ### Environment 
-The environment under consideration is on of the many [Unity ML-Agents Toolkit's](https://github.com/Unity-Technologies/ml-agents) game environments. These environments enable games and simulations to serve as environments for training intelligent agents. The environment is called the Banana Collector. It is game where a player is supposed to navigate in order to collect yellow bananas and skip blue bananas. A graphic rendering of the environment looks like the following GIF. <br/> <br/> <br/> ![banana collector](Images_GIFs/banana_collector.gif)
+The environment under consideration is on of the many [Unity ML-Agents Toolkit's](https://github.com/Unity-Technologies/ml-agents) game environments. These environments enable games and simulations to serve as environments for training intelligent agents. The environment is called the Reacher Environment. In this environment, a double-jointed arm can move to target locations.The goal of the agent is to maintain its position at the target location for as many time steps as possible. Two separate versions of the Unity environment are considered for the project,
+    * Environment with a single agent.
+    * Environment with 20 identical agents, each with its own copy of the environment.
+ A graphic rendering of the environment looks like the following GIF. <br/> <br/> <br/> ![Reacher](gifs/reacher.gif)
 
 #### State Space
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions.
