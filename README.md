@@ -11,21 +11,15 @@ The environment under consideration is on of the many [Unity ML-Agents Toolkit's
  A graphic rendering of the environment looks like the following GIF. <br/> <br/> <br/> ![Reacher](gifs/reacher.gif)
 
 #### State Space
-The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions.
+The Vector Observation space contains 33 variables corresponding to position, rotation, velocity, and angular velocities of the two arm Rigidbodies.
 
 #### Action Space
-Four discrete actions are available, corresponding to:
-```   
-       0 - move forward.
-       1 - move backward.
-       2 - turn left.
-       3 - turn right.
-```
+The Vector Action space is Continuous and has a Size of 4, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 #### Rewards
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.
+A reward of +0.1 is provided for each step that the agent's hand is in the goal location.
 
 ### Completion Criteria
-Based on the instructions provided in the study material, in order to consider the environment solved, the agent must get an average score of +13 over 100 consecutive episodes.
+Based on the instructions provided in the study material, in order to consider the environment solved, the agent must get an average score of +30 over 100 consecutive episodes for the 1st environment with a single agent or, must get an average score of +30 over 100 consecutive episodes over all agents of the second environment.
 
 ### Getting Started
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
