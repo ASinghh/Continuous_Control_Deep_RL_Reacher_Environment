@@ -44,7 +44,7 @@ Based on the instructions provided in the study material, in order to consider t
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file.
 
 ### Instructions
-The file `ddpg_agent.py` contains classes required for creating the Deep Deterministic Policy Gradient agent that is used to solve the environment. It also contains a calss for creating Replay Buffers. The file `model.py` contains the Neural Network classes for creating the Actor and the. These Network classes are used to define the Agent class in the file `ddpg_agent.py`. To understand the implementation of training iterations, read through the `Continuous_Control.ipynb` notebook. The parameters that solve the environment are saved in the checkpoint files `actor_ckpt.pth` and `critic_ckpt.pth`, for the Actor and the Critic, repectively.
+The file `ddpg_agent.py` contains classes required for creating the Deep Deterministic Policy Gradient agent that is used to solve the environment. It also contains a calss for creating Replay Buffers. The file `model.py` contains the Neural Network classes for creating the Actor and the Critic. These Network classes are used to define the Agent class in the file `ddpg_agent.py`. To understand the implementation of training iterations, read through the `Continuous_Control.ipynb` notebook. The parameters that solve the environment are saved in the checkpoint files `actor_ckpt.pth` and `critic_ckpt.pth`, for the Actor and the Critic, respectively.
 
 ### Report
 The file `Report.pdf` contains information regarding the Learning Algorithm used for defining the agent, Plot of Rewards and Ideas for Future Work.
